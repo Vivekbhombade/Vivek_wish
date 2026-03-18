@@ -44,6 +44,9 @@ h1 {
   color: white;
   position: relative;
 }
+#noBtn {
+  transition: all 0.3s ease;
+}
 
 /* Hover Effect */
 .no:hover {
