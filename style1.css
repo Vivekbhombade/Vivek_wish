@@ -40,7 +40,7 @@
       bottom: -50px;
       color: red;
       font-size: 20px;
-      animation: floatUp 5s linear infinite;
+      animation: floatUp 5s linear infinite, beat 1s ease-in-out infinite;
     }
 
     @keyframes floatUp {
@@ -52,4 +52,7 @@
         transform: translateY(-100vh);
         opacity: 0;
       }
+
+      /* New code for heart animation */
+        
     }
